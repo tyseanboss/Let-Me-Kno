@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Drone Store</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+</head>
+<body>
+
+  <h1>My Drone Store</h1>
+
+  <div id="photoContainer"></div>
+
+  <form id="requestForm">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <textarea id="message" placeholder="Your Request" required></textarea>
+    <button type="submit">Send Request</button>
+  </form>
+
+  <p id="confirmation">✅ Your request has been sent!</p>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
